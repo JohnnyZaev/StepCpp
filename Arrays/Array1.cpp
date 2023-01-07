@@ -33,10 +33,72 @@ int main()
 //	cout << result;
 
 	//2
-	const int l = 5;
-	int arr[l] = {1, 2, 3, 4, 5};
-	for (int i = l - 1; i > -1; i--)
-	{
-		cout << arr[i] << ' ';
-	}
+//	const int l = 5;
+//	int arr[l] = {1, 2, 3, 4, 5};
+//	for (int i = l - 1; i > -1; i--)
+//	{
+//		cout << arr[i] << ' ';
+//	}
+
+	//3
+// 	const int m = 5;
+//	int arr[m];
+//	for (int i = 0; i < m; i++)
+//	{
+//		cin >> arr[i];
+//	}
+//	int result = 0;
+//	for (int i = 0; i < m; i++)
+//	{
+//		result += arr[i];
+//	}
+//	cout << result;
+
+	//5
+//	const int l = 5;
+//	int arr[l];
+//	for (int i = 0; i < l; i++)
+//	{
+//		arr[i] = rand();
+//	}
+//	int min, max;
+//	min = INT_MAX;
+//	max = INT_MIN;
+//	for (int i = 0; i < l; i++)
+//	{
+//		if (arr[i] > max)
+//			max = arr[i];
+//		if (arr[i] < min)
+//			min = arr[i];
+//	}
+//	for (int i = 0; i < l; i++)
+//	{
+//		cout << arr[i] << " ";
+//	}
+//	cout << endl << min << " " << max;
+
+	//6
+//	const int m = 12;
+//	int arr[m];
+//	for (int i = 0; i < m; i++)
+//	{
+//		cin >> arr[i];
+//	}
+//	int min = INT_MAX, max = INT_MIN, down, top;
+//	int minMonth, maxMonth;
+//	cin >> down >> top;
+//	for (int i = down - 1; i < top; i++)
+//	{
+//		if (arr[i] > max)
+//		{
+//			max = arr[i];
+//			maxMonth = i + 1;
+//		}
+//		if (arr[i] < min)
+//		{
+//			min = arr[i];
+//			minMonth = i + 1;
+//		}
+//	}
+//	cout << maxMonth << " " << minMonth;
 }
