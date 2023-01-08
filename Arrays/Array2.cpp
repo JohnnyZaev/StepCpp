@@ -34,5 +34,14 @@ using namespace std;
 
 int main()
 {
-
+	//19
+//	const int n = 5;
+//	int a[n] = {1, 2, 3, 4, 5};
+//	int b[n] = {5, 4, 3, 2, 1};
+//	int c[n];
+//	for (int i = 0; i < n; i++)
+//	{
+//		c[i] = a[i] + b[i];
+//		cout << c[i] << ' ';
+//	}
 }
