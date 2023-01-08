@@ -44,4 +44,21 @@ int main()
 //		c[i] = a[i] + b[i];
 //		cout << c[i] << ' ';
 //	}
+
+	//17
+//	const int n = 5;
+//	int a[n] = {1, 2, 3, 4, 5};
+//	int b[n] = {5, 4, 3, 2, 1};
+//	int c[n * 2];
+//	int j = 0;
+//	for (int i = 0; i < n; i++, j++)
+//	{
+//		c[j] = a[i];
+//		cout << c[j] << ' ';
+//	}
+//	for (int i = 0; i < n; i++, j++)
+//	{
+//		c[j] = b[i];
+//		cout << c[j] << ' ';
+//	}
 }
