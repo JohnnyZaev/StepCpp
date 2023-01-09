@@ -120,4 +120,8 @@ int main()
 //	{
 //		cout << c[i] << " ";
 //	}
+
+	//8
+	const int n = 5;
+	int a[n];
 }
