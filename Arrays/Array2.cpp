@@ -122,32 +122,43 @@ int main()
 //	}
 
 	//8
-	const int n = 5;
-	int a[n] = {0, 1, 0, 2, 0};
-	int count = 0;
+//	const int n = 5;
+//	int a[n] = {0, 1, 0, 2, 0};
+//	int count = 0;
+//	for (int i = 0; i < n; i++)
+//	{
+//		if (a[i] == 0)
+//		{
+//			for (int j = i; j < n - 1; j++)
+//			{
+//				int temp = a[j + 1];
+//				a[j + 1] = a[j];
+//				a[j] = temp;
+//			}
+//		}
+//	}
+//	for (int i = 0; i < n; i++)
+//	{
+//		if (a[i] != 0)
+//			count++;
+//	}
+//	for (int i = count; i < n; i++)
+//	{
+//		a[i] = -1;
+//	}
+//	for (int i = 0; i < n; i++)
+//	{
+//		cout << a[i];
+//	}
+
+	//7
+	int n;
+	cin >> n;
+	int arr[n];
+
 	for (int i = 0; i < n; i++)
 	{
-		if (a[i] == 0)
-		{
-			for (int j = i; j < n - 1; j++)
-			{
-				int temp = a[j + 1];
-				a[j + 1] = a[j];
-				a[j] = temp;
-			}
-		}
-	}
-	for (int i = 0; i < n; i++)
-	{
-		if (a[i] != 0)
-			count++;
-	}
-	for (int i = count; i < n; i++)
-	{
-		a[i] = -1;
-	}
-	for (int i = 0; i < n; i++)
-	{
-		cout << a[i];
+		arr[i] = rand();
+		cout << arr[i] << ' ';
 	}
 }
