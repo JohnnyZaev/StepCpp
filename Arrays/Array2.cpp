@@ -152,25 +152,25 @@ int main()
 //	}
 
 	//7
-	int n;
-	cin >> n;
-	int arr[n];
-
-	for (int i = 0; i < n; i++)
-	{
-		arr[i] = rand();
-		cout << arr[i] << ' ';
-	}
-
-	int result = 0;
+//	int n;
+//	cin >> n;
+//	int arr[n];
+//
+//	for (int i = 0; i < n; i++)
+//	{
+//		arr[i] = rand();
+//		cout << arr[i] << ' ';
+//	}
+//
+//	int result = 0;
 //	for (int i = 0; i < n; i++)
 //	{
 //		if (arr[i] < 0)
 //			result += arr[i];
 //	}
-	for (int i = 0; i < n; i += 2)
-	{
-		result += arr[i];
-	}
-	cout << result;
+//	for (int i = 0; i < n; i += 2)
+//	{
+//		result += arr[i];
+//	}
+//	cout << result;
 }
